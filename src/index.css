@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input { @apply rounded-xl border px-4 py-3 outline-none focus:ring-2 focus:ring-sky-200; }
+.logo-img { image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; }
